@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<tittle>Document</tittle>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<form id= "transactionForm" >
+	<body background="fondo.jpg">
+		<div class = "container">
+		<h1 class="titulo"><font color = "white">código secreto</font></h1>
+
+			<main class="main">
+    			<section class="form box">
+        			<form action="">
+        				<label for="input-texto">Solo letras minúsculas, sin acento</label>
+        				<input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        				<input class="btn" type="submit" value="encriptar" id="btn-encriptar">
+        				<input class="btn" type="submit" value="desencriptar" id="btn-desencriptar">
+      				</form>
+    			</section>
+   
+   				<section class="msg box"> 
+    				<h3 id="">Mensaje Encriptado : </h3>
+    				<input class= "text-input" type="text" id="msg"> </input>
+    				<input class="btn" type="submit" value="copiar" id="btn-copy">
+   				</section>
+			</main>
+		</div>
+
+		<script src="script.js"> </script>
+
+	</body>
+</form>
+</html>
